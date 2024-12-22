@@ -13,11 +13,6 @@ public class FighterAction : MonoBehaviour
 
     [SerializeField]
     private GameObject rangePrefab;
-
-    [SerializeField]
-    private Sprite faceIcon;
-
-    private GameObject currentAttack;
     
     void Awake()
     {

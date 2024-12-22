@@ -61,7 +61,7 @@ public class FighterStats : MonoBehaviour, IComparable
     public void ReceiveDamage(float damage)
     {
         health = health - damage;
-        animator.Play("Damage");
+        Invoke("damageAnimation", 0.5f);
 
         // Set damage text
 
@@ -97,6 +97,10 @@ public class FighterStats : MonoBehaviour, IComparable
     public bool GetDead()
     {
         return dead;
+    }
+    private void damageAnimation()
+    {
+        animator.Play("Damage");
     }
 
     void ContinueGame()
