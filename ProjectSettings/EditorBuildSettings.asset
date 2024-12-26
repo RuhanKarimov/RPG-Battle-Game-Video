@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/QuestScreen.unity
+    guid: 31668c586cb601a4fa6ace499dfe82f6
+  - enabled: 1
+    path: Assets/BattleScreen.unity
+    guid: 7e3df9664a47871428653c3a15cd2884
   m_configObjects: {}
