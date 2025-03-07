@@ -28,9 +28,6 @@ public class BuffDecorator : FighterDecorator
             // Buff süresi bitince eski değerlere dön
             Melee -= extraMelee;
             Defense -= extraDefense;
-            // Bu dekoratörü devreden çıkarmak istersen 
-            // (nasıl yöneteceğin sana bağlı, 
-            //  basitçe Destroy(this) veya benzeri bir mantık).
         }
     }
 }
