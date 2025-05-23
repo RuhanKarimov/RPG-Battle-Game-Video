@@ -78,7 +78,7 @@ TextureImporter:
       213: 3974601091953585825
     second: sprite-sheet-b-183-123_24
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -98,6 +98,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -106,9 +108,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -129,10 +131,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -148,6 +154,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -696,6 +726,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      sprite-sheet-b-183-123_0: -1937349601187026274
+      sprite-sheet-b-183-123_1: -3238883947309956738
+      sprite-sheet-b-183-123_10: -1352115511917601169
+      sprite-sheet-b-183-123_11: -6211473368422740199
+      sprite-sheet-b-183-123_12: -7721397707235751176
+      sprite-sheet-b-183-123_13: 3404549858784097252
+      sprite-sheet-b-183-123_14: -6826683136113843182
+      sprite-sheet-b-183-123_15: 1914763003812560877
+      sprite-sheet-b-183-123_16: -595647568148012254
+      sprite-sheet-b-183-123_17: 6343685202755804341
+      sprite-sheet-b-183-123_18: 1526388775508791707
+      sprite-sheet-b-183-123_19: 5714365877755328719
+      sprite-sheet-b-183-123_2: -8173243471208239650
+      sprite-sheet-b-183-123_20: -7663057488318092602
+      sprite-sheet-b-183-123_21: -4164196384679908908
+      sprite-sheet-b-183-123_22: 7510446277416229355
+      sprite-sheet-b-183-123_23: 2066532412334113092
+      sprite-sheet-b-183-123_24: 3974601091953585825
+      sprite-sheet-b-183-123_3: -5823848422722629834
+      sprite-sheet-b-183-123_4: -3935447094680956372
+      sprite-sheet-b-183-123_5: -4168412915705247567
+      sprite-sheet-b-183-123_6: -7726630363430067064
+      sprite-sheet-b-183-123_7: 6607462108884283435
+      sprite-sheet-b-183-123_8: -8434627671023123045
+      sprite-sheet-b-183-123_9: -6456350941362064466
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

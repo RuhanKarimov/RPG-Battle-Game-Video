@@ -636,10 +636,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: b5b0caf1-5d0c-482a-b4bd-197360fc5804
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: RPG-Battle-Game-Video
+  organizationId: rhnkrmv2004
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
